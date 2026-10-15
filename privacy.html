@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Task Solver - Privacy Policy</title>
+<style>
+  :root { --bg: #f6f6f8; --card: #fff; --text: #1b1b1f; --muted: #5f5f6b; --accent: #624cf5; --border: #e4e4ea; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1c1c20; --card: #26262b; --text: #ededf0; --muted: #a8a8b3; --accent: #8b7bff; --border: #36363d; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 20px 60px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 28px 32px; }
+  h1 { margin: 0 0 4px; font-size: 30px; }
+  h2 { margin: 28px 0 8px; font-size: 19px; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+  li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<main>
+<div class="card">
+<h1>Task Solver - Privacy Policy</h1>
+<p class="muted">Publisher: Simeon's Apps &middot; Last updated: 15 October 2026</p>
+
+<p>Task Solver is a Windows app that helps students with programming exercises: it reads a task you show it, writes the
+code into the project open in your editor, explains errors and makes study pages. This page explains what happens to your
+data. In short: <strong>the publisher does not collect anything.</strong> There are no accounts, analytics, ads or tracking.</p>
+
+<h2>What is sent to the AI (Anthropic)</h2>
+<p>When you use a feature, Task Solver sends the material for that request directly from your PC to Anthropic's Claude API,
+using <strong>your own API key</strong>:</p>
+<ul>
+  <li>screenshots or the part of the screen you select, Word / PDF / PowerPoint files you choose or have open;</li>
+  <li>the names and contents of code files in the project you have open, when needed to place or fix the code;</li>
+  <li>error messages you copied or that your editor lists, and the related code (Explain an error);</li>
+  <li>notes you type for the AI;</li>
+  <li>for study mode in a browser: the address, text and a screenshot of the page in front, or screenshots of the slides.</li>
+</ul>
+<p>This happens only when you press a Task Solver hotkey or button. Anthropic processes the data under its own terms and
+privacy policy (<a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>). The data does not pass through
+the publisher, and the publisher cannot see it.</p>
+<p>If you use the optional offline model (Ollama), the task stays on your PC and nothing is sent.</p>
+
+<h2>What is stored on your PC</h2>
+<ul>
+  <li><strong>Settings</strong>, including your Claude API key, which is encrypted for your Windows account only.</li>
+  <li><strong>Your license</strong> and a device code. The device code is calculated on your PC from its hardware and is never
+      sent anywhere by the app; you share it yourself if you ask for a license.</li>
+  <li><strong>History</strong>: the last 200 tasks with their result, and the screenshots / documents of each task for 30 days so
+      it can be solved again. You can clear it any time (History &rsaquo; Clear history).</li>
+  <li><strong>Backups</strong> of files before Task Solver changes them, <strong>logs</strong> of what it did (kept 14 days), and the
+      <strong>study pages</strong> you create (Documents &rsaquo; TaskSolver &rsaquo; Study).</li>
+</ul>
+<p>All of this stays on your PC (in <code>%APPDATA%\TaskSolver</code> and your Documents folder) and is removed or kept as you choose.</p>
+
+<h2>Other internet access</h2>
+<ul>
+  <li>Study mode can download a file you have open in your browser when it is publicly available at that link (for example a
+      PDF, or a Google Slides presentation shared with "anyone with the link").</li>
+  <li>No other data is sent anywhere.</li>
+</ul>
+
+<h2>Reporting an answer</h2>
+<p>"Report this answer" opens your own e-mail app with a message to the publisher containing the answer you are reporting. Nothing
+is sent unless you send that e-mail yourself. Reports are only used to fix problems.</p>
+
+<h2>Children</h2>
+<p>Task Solver is meant for students taking programming courses and is not directed at children under 13.</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes, the new version will be published on this page with a new date.
+Questions: <a href="mailto:tasksolver.support@gmail.com">tasksolver.support@gmail.com</a></p>
+</div>
+</main>
+</body>
+</html>
